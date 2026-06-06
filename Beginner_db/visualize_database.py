@@ -16,20 +16,13 @@ cursor.execute('''
     )
 ''')
 
-# Insert sample data
+# Insert sample data from GeneralPractical_db.sql
 data = [
     (1, 'Alice', 'Comp Sci', 20),
     (2, 'Bob', 'History', 22),
     (3, 'Carol', 'Politics', 21),
     (4, 'Dave', 'Math', 23),
-    (5, 'Eve', 'Comp Sci', 19),
-    (6, 'Jack', 'Biochemistry', 21),
-    (7, 'Kate', 'Psychology', 20),
-    (8, 'Claire', None, 22),
-    (9, 'David', 'Comp Sci', 21),
-    (10, 'John', 'Comp Sci', 23),
-    (11, 'Zack', 'Undecided', 20),
-    (12, 'Bach', 'Politics', 22)
+    (5, 'Eve', 'Comp Sci', 19)
 ]
 
 cursor.executemany('INSERT INTO student VALUES (?, ?, ?, ?)', data)
@@ -86,6 +79,6 @@ plt.tight_layout()
 
 # Save pie chart
 plt.savefig('Beginner_db/student_age_distribution.png', dpi=300, bbox_inches='tight')
-print("\n✓ Pie chart saved: student_age_distribution.png")
+print("✓ Pie chart saved: student_age_distribution.png")
 
 conn.close()
