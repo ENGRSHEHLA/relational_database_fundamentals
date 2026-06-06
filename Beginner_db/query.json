@@ -1,0 +1,37 @@
+[
+  {
+    "student_id": 1,
+    "name": "Jack",
+    "major": "Biochemnistry"
+  },
+  {
+    "student_id": 2,
+    "name": "Kate",
+    "major": "Psychology"
+  },
+  {
+    "student_id": 3,
+    "name": "Claire",
+    "major": null
+  },
+  {
+    "student_id": 4,
+    "name": "David",
+    "major": "Comp Sci"
+  },
+  {
+    "student_id": 6,
+    "name": "John",
+    "major": "Comp Sci"
+  },
+  {
+    "student_id": 7,
+    "name": "Zack",
+    "major": "undecided"
+  },
+  {
+    "student_id": 9,
+    "name": "Bach",
+    "major": "Politics"
+  }
+]
